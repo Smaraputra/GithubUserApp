@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="title_act_list">Github User\'s Search</string>
+    <string name="title_act_detail">Detail User</string>
+    <string name="title_act_favorite">Favorite User</string>
+    <string name="splash_act_logo">SplashLogo</string>
+    <string name="splash_act_text">Github User</string>
+    <string name="rv_list_user_img">User Image</string>
+    <string name="detail_user_sub_username">Username :</string>
+    <string name="detail_user_sub_repository">Repository :</string>
+    <string name="detail_user_sub_company">Company :</string>
+    <string name="detail_user_sub_followers">Followers :</string>
+    <string name="detail_user_sub_following">Following :</string>
+    <string name="detail_user_sub_location">Location :</string>
+    <string name="favorite_user">Favorite User</string>
+    <string name="addFavorite">addFavorite</string>
+    <string name="delete_confirmation_message">This will remove the user from your favorite list. Do you want to continue?</string>
+    <string name="delete_confirmation_title">Remove favorite user</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="success_add">Added to favorite list.</string>
+    <string name="success_removed">Removed from favorite list.</string>
+    <string name="no_favorite_user_yet">No favorite user yet.</string>
+    <string name="no_user_found">No user found.</string>
+</resources>

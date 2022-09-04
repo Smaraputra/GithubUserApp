@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.smaraputra.githubuserapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GithubUserApp">
+        <activity
+            android:name="id.smaraputra.githubuserapp.activity.FavoriteGithubUserActivity"
+            android:exported="true"
+            android:parentActivityName="id.smaraputra.githubuserapp.activity.ListGithubUserActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="id.smaraputra.githubuserapp.activity.ListGithubUserActivity" />
+        </activity>
+        <activity
+            android:name="id.smaraputra.githubuserapp.activity.DetailGithubUserActivity"
+            android:exported="true"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="id.smaraputra.githubuserapp.activity.ListGithubUserActivity"
+            android:exported="true"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name="id.smaraputra.githubuserapp.activity.SplashScreenActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="RoundedBackgroundName" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/grey_soft</item>
+        <item name="android:background">@drawable/name_background</item>
+    </style>
+
+    <style name="RoundedBackgroundNameInverted" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/green_soft</item>
+        <item name="android:background">@drawable/name_background_inverted</item>
+    </style>
+</resources>
